@@ -1,26 +1,26 @@
-##About
+## About
 
 
 
 
-##Summaries
-#Nina
+## Summaries
+# Nina
 
 
 
 
-#Jesse
+# Jesse
 
 
 
 
-##Insights & Challenges
-#Nina
+## Insights & Challenges
+# Nina
 
 
 
 
-#Jesse
+# Jesse
 
 
 
