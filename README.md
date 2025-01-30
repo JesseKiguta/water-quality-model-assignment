@@ -1,30 +1,30 @@
-## About
+# About
 
 
 
 
-## Summaries
-# Nina
+# Summaries
+## Nina
 
 
 
 
-# Jesse
+## Jesse
 
 
 
 
-## Insights & Challenges
-# Nina
+# Insights & Challenges
+## Nina
 
 
 
 
-# Jesse
+## Jesse
 
 
 
-#Summary Table
+# Summary Table
 | Train Instance | Engineer Name | Regularizer | Optimizer | Early Stopping | Dropout Rate | Accuracy | F1 Score | Recall | Precision |
 |---------------|--------------|-------------|-----------|---------------|-------------|----------|---------|--------|----------|
 |               |              |             |           |               |             |          |         |        |          |
