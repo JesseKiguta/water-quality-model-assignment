@@ -24,8 +24,24 @@ My model in the end had a high number of false positives accoriding to the confu
 
 
 ## Jesse
+The final performance metrics of my model and loss curves are as follows:
+Training Accuracy: 70.49
+Validation Accuracy: 66.61
+Training Loss: 0.56
+Validation Loss: 0.60
 
+Apart from the final performance metrics, this is how my model performed on metrics such as the F1 Score:
+Precision: 0.58
+Recall: 0.66
+F1 Score: 0.62
 
+The following combination of techniques achieved the result above:
+Optimizer: Nadam (with a learning rate of 0.0004)
+Regularizers: Dropout (with a rate of 0.3) and Batch Normalization
+Early Stopping (with a patience of 15)
+ReduceLROnPlateau (with a factor of 0.3, patience of 7, and minimum learning rate of 1e-6)
+
+The model shows mild overfitting as the training accuracy and loss are higher than the validation accuracy and loss by around 4 points. The precision score of 0.58 indicated that the model has a relatively high number of false positives with recall being a bit higher at 0.66 showing that the model is better trained for actual positives.
 
 
 # Insights & Challenges
@@ -38,7 +54,7 @@ Another challenge was getting a learning rate that would work well with the thre
 
 
 ## Jesse
-
+To achieve these results, I carefully selected and finetuned different techniques. Because the model was initially converging too slowly leading to poor overall performance, I switched from Adam to Nadam, which helped the model converge faster and improve performance. In addition, I chose a combination of Dropout and Batch Normalization for regularization to reduce overfitting as much as possible, which made me arrive at an optimal dropout rate of 0.3. Furthermore, I used Early Stopping with a high patience of 15 because I observed that I was initially stopping the model too early which was not allowing room for improvement, and ReduceLROnPlateau to aid Nadam in converging the model in a better way.
 
 
 # Summary Table
